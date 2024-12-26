@@ -1,0 +1,295 @@
+.login-container {
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+    background-color: #dedee6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 832px;
+}
+
+.login-form {
+    width: 500px;
+    height: 650px;
+    padding: 40px 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.login-container {
+    .inp-box{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;   
+        justify-content: center;
+        margin-top: 10px; 
+        padding: 30px;
+    }
+}
+
+.find-pwd {
+    color: #858585;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.submit-btn{background-color: #3dacfd; color: white; height: 48px; border-radius: 15px;}
+.font-xl{font-size: 25px;}
+
+.register-container{
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+    background-color: #dedee6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 832px;
+}
+.register-container{
+    .login-form {
+        width: 700px;
+        height: auto;
+        padding: 50px 70px;
+        background-color: white;
+        border-radius: 30px;
+    }
+    .inp-box{
+        margin-top: 20px;
+        position: relative;
+        height: auto;
+    }
+    .card-inp1{
+        height: 50px;
+        width: 50%;
+        border-radius: 4px;
+        border: 1px solid #DBDBDB;
+        text-indent: 20px;
+    }
+    .card-inp2{
+        height: 50px;
+        width: 25%;
+        border-radius: 4px;
+        border: 1px solid #DBDBDB;
+        text-indent: 20px;
+    }
+    .signup-input-lg{
+        height: 50px;
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid #DBDBDB;
+        text-indent: 20px;
+        font: Pretendard;
+    }
+    .signup-input-md{
+        height: 50px;
+        width: 70%;
+        border-radius: 4px;
+        border: 1px solid #DBDBDB;
+        text-indent: 20px;
+        font: Pretendard;
+    }
+    .sub-title{
+        margin-top: 20px;
+    }
+    .register-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .btn-confirm{
+        background-color: #DBDBDB;
+        color: #777;
+        width: 29%;
+        height: 50px;
+        border-radius: 3px;    
+    }
+    .reg-btn{
+        margin-top: 50px;
+    }
+
+    .customColor{
+        color: #858585;
+    }
+    .planbox-label{
+        width: 24%;
+        height: 190px;
+    }
+    .planbox{
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+    }
+    input[type='radio'] {
+        -webkit-appearance: none; // 웹킷 브라우저에서 기본 스타일 제거
+        -moz-appearance: none; // 모질라 브라우저에서 기본 스타일 제거 
+        appearance: none; // 기본 브라우저에서 기본 스타일 제거
+        width: 15px;
+        height: 15px;
+        border: 2px solid #ccc; // 체크되지 않았을 때의 테두리 색상
+        border-radius: 50%;
+        outline: none; // focus 시에 나타나는 기본 스타일 제거
+        cursor: pointer;
+    }
+    input[type='radio']:checked {
+        background-color: #666CFF; // 체크 시 내부 원으로 표시될 색상
+        border: 3px solid white; // 테두리가 아닌, 테두리와 원 사이의 색상
+        box-shadow: 0 0 0 1.6px #666CFF; // 얘가 테두리가 됨
+        // 그림자로 테두리를 직접 만들어야 함 (퍼지는 정도를 0으로 주면 테두리처럼 보입니다.)
+        // 그림자가 없으면 그냥 설정한 색상이 꽉 찬 원으로만 나옵니다.
+    }
+}
+
+.terms-container{
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+    background-color: #dedee6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 832px;
+}
+.terms-container{
+    .login-form {
+        width: 700px;
+        height: 770px;
+        padding: 40px 70px;
+        background-color: white;
+        border-radius: 30px;
+    }
+    .inp-box{
+        margin-top: 20px;
+        position: relative;
+        height: auto;
+    }
+    .terms-text{
+        background-color: #EFEFF4;
+        height: 140px;
+        border-radius: 8px;
+        font-size: 12px;
+        padding: 2px 10px;
+    }
+}
+input[type='checkbox'] {
+    -webkit-appearance: none; // 웹킷 브라우저에서 기본 스타일 제거
+    -moz-appearance: none; // 모질라 브라우저에서 기본 스타일 제거 
+    appearance: none; // 기본 브라우저에서 기본 스타일 제거
+    width: 13px;
+    height: 13px;
+    border: 1px solid #ccc; // 체크되지 않았을 때의 테두리 색상
+    border-radius: 2px;
+    outline: none; // focus 시에 나타나는 기본 스타일 제거
+    cursor: pointer;
+}
+input[type='checkbox']:checked {
+    background-color: #666CFF; // 체크 시 내부 원으로 표시될 색상
+    box-sizing: border-box;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='2.5 2.5 11 11' fill='white' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M5.707 7.293a1 1 0 0 0-1.414 1.414l2 2a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L7 8.586 5.707 7.293z'/%3e%3c/svg%3e");
+    
+}
+
+.find-container{
+    margin: 0 auto;
+    max-width: 1920px;
+    width: 100%;
+    background-color: #dedee6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 832px;
+}
+
+.find-container{
+    .login-form {
+        width: 550px;
+        height: 750px;
+        padding: 50px 50px;
+        background-color: white;
+        border-radius: 30px;
+    }
+    .inp-box{
+        margin-top: 20px;
+        position: relative;
+        height: 500px;
+    }
+    .findIdPw{
+        width: 50%;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 10px 10px 0 0;
+        font-size: 14px;
+    }
+    .resultIdPw{
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        border-radius: 10px 10px 0 0;
+        font-size: 14px;
+    }
+    .find-inp-lg{
+        border: 1px solid #ccc;
+        width: 100%;
+        height: 50px;
+        border-radius: 3px;
+        text-indent: 10px;
+    }
+    .find-inp-md{
+        border: 1px solid #ccc;
+        width: 72%;
+        height: 50px;
+        border-radius: 3px;
+        text-indent: 10px;
+    }
+    .find-btn{
+        width: 28%;
+        height: 50px;
+    }
+}
+
+.guide-text {
+    color: #858585;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.text-2xs{
+    font-size: 11px;
+}
+
+//커스텀 마진
+.custom-mt-20{
+    margin-top: 20px;
+}
+.custom-mt-30{
+    margin-top: 30px;
+}
+
+// 버튼
+.btn-prev{
+    border: 1px solid #666CFF;
+    color: #666CFF;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+}
+.btn-next{
+    background-color: #666CFF;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;        
+}
+
+.alert-container {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+.alert-container.fade-out {
+opacity: 0;
+}

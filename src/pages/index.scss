@@ -1,0 +1,434 @@
+
+
+
+  #main-container{
+    width: 0 auto;
+    background-color: #ffffff;
+ 
+  
+//   header{
+//     //width: 1920px;
+//     margin: 0 auto;
+//     height: 70px;
+//     align-content: end;
+
+    
+//   }
+//   header > .headerIn{
+//     width: 100%;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     margin-bottom: 12px;
+
+    
+
+//   }
+
+//   header  .headerLogo {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+    
+//   }
+
+//   header > .headerIn  h1{
+//     line-height: 25px;
+//     font-size: 25px;
+//   }
+
+//   header > .headerIn >.gnbWrapper{
+//     display: flex;
+//     align-items: center;
+//   }
+//   header > .headerIn >.gnbWrapper > .gnb{
+//     display: flex;
+//     align-items: center;
+// }
+  
+
+//   header > .headerIn >.gnbWrapper > .gnb > li{
+//     width: 200px;
+//     text-align: center;
+//   }
+
+//   header img{
+//     width: 25px;
+//     height: 25px;
+//     margin-right: 10px;
+//   }
+
+
+//   /* main */
+//   main{
+
+//     width: 1920px;
+//     margin: 0 auto;
+
+//   }
+//   main .mainIn{
+//     width: 100%;
+//   }
+
+//   main .mainIn > .Topbg{
+//     height: 816px;
+//     position: relative;
+//     box-sizing: border-box;
+//   }
+
+//   main .mainIn > .Topbg > img{
+//     width: 100%;
+//     height: 100%;
+//     background-color: #666cff24;
+//   }
+//  .Topbg > .up > div> h2{
+//     top: 462px;
+//     left: 176px;
+//     position: absolute;
+//     width: 355px;
+//   }
+
+//   .Topbg > .up > div> h2 > p{
+//     font-size: 25px;
+//   }
+
+//   .Topbg > .up > div> h2 > p:last-child{
+//     position: absolute;
+//     padding-left: 20px;
+//     left: 20px;
+//   }
+
+//   .Topbg > .up  >p{
+//     position: absolute;
+//     top: 569px;
+//     left: 163px;
+//   }
+//   .Topbg > .up  > .projectImg1{
+//     position: absolute;
+//     top: 387px;
+//     right: 215px;
+//   }
+//   .Topbg > .up  > .projectImg2{
+//     position: absolute;
+//     top: 120px;
+//     right: 284px;
+//   }
+
+//   .Topbg > .up  > .icon1{
+//     position: absolute;
+//     z-index: 2;
+//     top: 359px;
+//     left: 832px;
+//     height: 410px;
+//   }
+
+//   .Topbg > .up  > .icon2{
+//     position: absolute;
+//     z-index: 2;
+//     top: 100px;
+//     right: 50px;
+//     height: 434px;
+//   }
+
+  .serviceInfo{
+    height: 425px;
+    background-image: url(/images/rending_background.png);
+  }
+
+
+  .serviceInfo > .up h2{
+    top: 131px;
+    left: 776px;
+    font-size: 34px;
+  }
+  .serviceInfo > .up  p{
+    top: 171px;
+    left: 770px;
+    color: #808080;
+  }
+
+  .serviceInfo > .up .topinput {
+    top: 200px;
+    left: 770px;
+  }
+  .serviceInfo > .up .topinput > input{
+    width: 400px;
+    height: 30px;
+    text-indent: 38px;
+    line-height: 30px;
+    border-radius: 8px;
+  }
+  .serviceInfo > .up > img{
+    top: 205px;
+    left: 778px;
+
+    z-index: 20;
+    width: 20px;
+    height: 20px;
+
+  }
+  .knowledge,.mainIn{
+    background-color: #F6F6F7;
+  }
+  // .Knowledge .TopText {
+  //   margin-top: 80px;
+  //   margin-bottom: 24px;
+  // }
+
+  // .Knowledge .KnowledgeArticle{
+  //   width: 554px;
+  //   height: 210px;
+
+  // }
+
+  .serviceButton{
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #666CFF;
+    border-radius: 8px;
+    color: #666CFF;
+  }
+
+  .pricePart{
+    width: 100%;
+  }
+
+
+  .priceTop{
+    height: 377px;
+    background-color: #efeffd ;
+    background-image: url(/images/rending_background.png);
+  }
+  .priceTop  .discountTap{
+    width: 100%;
+    height: 87px;
+  }
+  .priceTop  .discountTap .save{
+    border: 1px solid #ECEDFF;
+    padding: 5px 10px;
+    border-radius: 30px;
+    background-color: #666CFF;
+    color: #ECEDFF;
+    top: 15.5px;
+    left: 976px;
+  }
+
+  .priceTop  .discountTap img{
+      top: 15px;
+      left: 952px;
+  }
+
+  .priceTop .periodSelect{
+    text-align: center;
+  }
+
+  .pricePart .tabWrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+  .pricePart .priceTop h2{
+    width: 500px;
+    text-align: center;
+    margin: 0 auto 20px;
+    font-size: 30px;
+    padding-top: 80px;
+  
+  }
+
+  .pricePart .priceTop p{
+    text-align: center;
+    color: #959595;
+  }
+ 
+
+  .tabWrapper .tab{
+    width: 514px;
+    height: 586px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+  .tabWrapper .tab.active , .tabWrapper .tab:hover{
+    border-color:  #666CFF;
+
+  }
+
+
+
+  .tabWrapper .tab img{
+    width: 100px;
+    height: 100px;
+    text-align: center; 
+    margin: 20px auto;
+  }
+  .tabWrapper .tab > strong{
+    margin: 20px auto 5px;
+
+  }
+
+  .tabWrapper .tab >span{
+    margin: 5px auto;
+  }
+
+  .tabWrapper .tab .money > p{
+    color: #666CFF;
+  }
+
+  .tabWrapper .tab .doller0{
+    top: 10px;
+    left: 230px;
+    color: #808080;
+  }
+
+  .tabWrapper .tab .doller{
+    top: 10px;
+    left: 224px;
+    color: #808080;
+  }
+
+  .tabWrapper .tab .dollerE{
+    top: 10px;
+    left: 214px;
+    color: #808080;
+  }
+  .tabWrapper .tab .month0{
+    top: 26px;
+    left: 270px;
+    color: #808080;
+  }
+  .tabWrapper .tab .month{
+    top: 26px;
+    left: 280px;
+    color: #808080;
+  }
+  .tabWrapper .tab  ul li{
+    line-height: 21px;
+    margin-bottom: 16px;
+  }
+
+  .tabWrapper .tab .upgradeBtn{
+    width: 466px;
+    height: 38px;
+    margin: 20px auto;
+    border-radius: 8px;
+
+  }
+  .tabWrapper .tab .upgradeBtn.current{
+    color: #72E128;
+    border: 1px solid #B9F094;
+    content:"YOUR CURRENT PLAN";
+  }
+  .tabWrapper .tab .upgradeBtn{
+    color: #666CFF;
+    background-color: #ffffff;
+    border: 1px solid #666CFF;
+  }
+
+  .tabWrapper .tab .upgradeBtn:hover,.tabWrapper .tab .upgradeBtn.active{
+    color: #ffffff;
+    background-color: #666CFF;
+    border: 1px solid #666CFF;
+  }
+
+  .pricePart .ad{
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #f9f9ff ;
+  }
+  .pricePart .ad .adWrapper{
+    box-sizing: border-box;
+    padding-top: 50px;
+  }
+  .pricePart .ad .trial{
+    width: 233px;
+    height: 38px;
+    padding: 7px 22px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #666CFF;
+    border-radius: 8px;
+    margin-top: 40px;
+  }
+
+  .pricePart .ad .adWrapper >img{
+    width: 300px;
+    height: 300px;
+    right: 30px;
+    top: 0px;
+  }
+
+  .FaqPage .Faq {
+    background-color: #ffffff;
+  }
+
+
+  .FaqPage .Faq .faqTitle:hover, .FaqPage .Faq .faqTitle.active {
+      width: 300px;
+      height: 38px;
+      border-radius: 8px;
+      background-color: #666CFF;
+      color: #ECEDFF;
+    }
+    .FaqPage .Faq .faqTitle:hover img {
+      filter: brightness(2.5) invert(0);
+    }
+    .FaqPage .Faq .icon{
+      background-color: #F1F1F3;
+      padding: 11px;
+      border-radius: 8px;
+    }
+    .FaqPage .faqlist > ul > li:nth-child(1){
+      margin-top: 12px
+      
+    }
+
+    .FaqPage .question .Qtop {
+      margin: 0 auto;
+      border-radius: 10px;
+      line-height: 24px;
+      background-color: #ECEDFF;
+      color: #666CFF;
+      border: none;
+      box-sizing: border-box;
+      margin-bottom: 40px;
+    }
+
+    .FaqPage .question .qp{
+      color: #808080;
+    }
+ 
+
+  /* footer */
+
+  footer{
+    width: 1920px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
+  footer > .footerIn{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer > .footerIn > section{
+    width: 260px;
+    text-align: center;
+  }
+
+  footer > .footerIn > section > h4{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 20px 0;
+    
+  }
+}

@@ -1,0 +1,97 @@
+
+#project-container{
+
+  p{font-size: 14px; margin-bottom: 0 !important;}
+  svg.ico{border: none;outline: none;}
+
+  .modal-custom-width{
+    width: 48rem;
+  }
+  
+  .project-card {
+      transition: all 0.3s ease;
+      overflow: hidden;
+    
+    
+    /* Collapsed (hidden content) */
+    &.collapsed .content-container {
+      display: none;
+      opacity: 0;
+      max-height: 0;
+    }
+    
+    /* Expanded (visible content) */
+    &.expanded .content-container {
+      display: block;
+      opacity: 1;
+      max-height: 500px; /* Adjust based on content */
+      transition: opacity 0.3s ease, max-height 0.3s ease;
+    }
+  }
+
+  input[type=date] {
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    color: #333; /* 값이 입력된 경우 텍스트 색상 */
+    background-color: #fff;
+    &::-webkit-datetime-edit-text,
+    &::-webkit-datetime-edit-month-field,
+    &::-webkit-datetime-edit-day-field,
+    &::-webkit-datetime-edit-year-field{
+      -webkit-appearance: auto;
+      display: inline;
+    }
+   
+  }
+  
+  
+  input[type=date]::before {
+    content: attr(placeholder); /* placeholder를 기본으로 보여줌 */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #858585; /* placeholder 색상 */
+    background-color: #fff;
+  }
+  
+  
+  input[type=date]:focus,
+  input[type=date]:in-range{
+    &::-webkit-datetime-edit-text,
+    &::-webkit-datetime-edit-month-field,
+    &::-webkit-datetime-edit-day-field,
+    &::-webkit-datetime-edit-year-field
+    {
+      display: inline;
+    }
+    &::before{display: none;}
+  }
+  input[type=date]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 20px;
+    cursor: pointer;
+    opacity: 0;
+    color: transparent; /* 기존 아이콘 숨기기 */
+  }
+
+  input[type=color] { -webkit-appearance: none;-moz-appearance: none; appearance: none; background-color: transparent; border: none;}
+  input[type=color]::-webkit-color-swatch { border-radius: 6px; border: none; }
+
+  .screen-reader { /* 스크린 리더를 고려해서 체크박스를 화면에서 숨김 */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    margin: -1px;
+    clip-path: inset(50%);
+  }
+  .modal-content{
+    width: 100% !important;
+  }
+}

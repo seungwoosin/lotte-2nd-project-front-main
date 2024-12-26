@@ -1,0 +1,193 @@
+#document-container1 {
+    height: 100%;
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    overflow: visible !important;
+
+
+    .document-aside1 {
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        border: 1px solid #ddd;
+
+    }
+    .document-main1 {
+        width: calc(100% - 312px);
+        flex-grow: 1;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+        transition: width 0.3s ease;
+        border: 1px solid #ddd;
+    }
+
+    .document-main1.reduced {
+        width: calc(100% - 600px);
+    }
+
+    .document-detail {
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .menu {
+        position: absolute;
+        z-index: 9999; /* 매우 높은 값 설정 */
+        top: 40px;
+        right: 10px;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        overflow: visible; /* 잘림 방지 */
+    }
+    
+
+    .file-modal {
+        .modal-custom-fixed {
+            inset: inherit;
+            position: fixed;
+            left: 70%;
+            top: 30%;
+            background-color: transparent;
+        }
+
+        .modal-custom-width {
+            width: 400px;
+        }
+        /* 화면 너비가 1200px 이하일 때 */
+        @media screen and (max-width: 1200px) {
+            .modal-custom-fixed {
+                left: 60%;
+                top: 25%;
+            }
+
+            .modal-custom-width {
+                width: 350px;
+            }
+        }
+
+        /* 화면 너비가 900px 이하일 때 */
+        @media screen and (max-width: 900px) {
+            .modal-custom-fixed {
+                left: 50%;
+                top: 20%;
+            }
+
+            .modal-custom-width {
+                width: 300px;
+            }
+        }
+
+        /* 화면 너비가 600px 이하일 때 */
+        @media screen and (max-width: 600px) {
+            .modal-custom-fixed {
+                left: 50%;
+                top: 10%;
+            }
+
+            .modal-custom-width {
+                width: 250px;
+            }
+        }
+    }
+
+    .folder-modal {
+        .modal-custom-width {
+            width: 500px;
+        }
+    }
+
+    .drive-modal {
+    
+        .fixed {
+            background-color: rgba(0, 0, 0, 0.5) !important; // 우선순위 강제 적용
+          }
+          
+       
+    }
+    
+  
+
+    .docList  tbody > tr{
+        height: 50px;
+    }
+    
+   
+
+}
+
+#document-favorite-container {
+    height: 100%;
+    max-width: 1650px;
+    display: flex;
+    gap: 12px;
+
+    .document-favorite-aside {
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .document-favorite-main {
+        width: 1338px;
+        flex-grow: 1;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .file-modal {
+        .modal-custom-fixed {
+            inset: inherit;
+            position: fixed;
+            left: 70%;
+            top: 30%;
+            background-color: transparent;
+        }
+
+        .modal-custom-width {
+            width: 400px;
+        }
+        /* 화면 너비가 1200px 이하일 때 */
+        @media screen and (max-width: 1200px) {
+            .modal-custom-fixed {
+                left: 60%;
+                top: 25%;
+            }
+
+            .modal-custom-width {
+                width: 350px;
+            }
+        }
+
+        /* 화면 너비가 900px 이하일 때 */
+        @media screen and (max-width: 900px) {
+            .modal-custom-fixed {
+                left: 50%;
+                top: 20%;
+            }
+
+            .modal-custom-width {
+                width: 300px;
+            }
+        }
+
+        /* 화면 너비가 600px 이하일 때 */
+        @media screen and (max-width: 600px) {
+            .modal-custom-fixed {
+                left: 50%;
+                top: 10%;
+            }
+
+            .modal-custom-width {
+                width: 250px;
+            }
+        }
+    }
+
+}

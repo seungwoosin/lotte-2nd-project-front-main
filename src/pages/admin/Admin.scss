@@ -1,0 +1,305 @@
+#admin-index-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    // max-width: 1650px;
+    gap: 12px;
+    .admin-index-top {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+
+    .admin-index-top-left {
+        background-color: #f9f9fc;
+        width: 920px;
+        height: 475px;
+        border-radius: 30px;
+        padding: 30px;
+        display: flex;
+        align-items: center;
+
+        .admin-index-top-project {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+        flex: 0.6;
+    }
+
+    .admin-index-top-right {
+        height: 475px;
+        width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex: 0.4;
+    }
+
+    .admin-index-top-companyinfo {
+        height: 178px;
+        width: 100%;
+        background-color: white;
+        border-radius: 30px;
+        padding: 30px;
+        display: flex;
+        justify-content: space-around;
+
+        .companyinfo-left {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+
+    .admin-index-top-attendance {
+        height: 270px;
+        width: 100%;
+        background-color: #f9f9fc;
+        border-radius: 30px;
+        display: flex;
+        padding: 30px;
+        justify-content: space-between;
+        .attendance-left {
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            p {
+                font-size: 50px;
+            }
+        }
+
+        .attendance-right {
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    }
+
+    .admin-index-bot {
+        height: 330px;
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+
+        .admin-card2{
+            width: 25%;
+        }
+        
+
+    }
+}
+
+#admin-user-container {
+    height: 100%;
+    display: flex;
+    gap: 12px;
+    .admin-user-aside {
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .admin-user-main {
+        width: 1338px;
+        flex-grow: 1;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+}
+
+#admin-project-container {
+    height: 100%;
+    max-width: 1650px;
+    display: flex;
+    gap: 12px;
+
+    .admin-aside {
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .admin-project-main {
+        width: 1338px;
+        flex-grow: 1;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .department-modal {
+        .modal-custom-width {
+            width: 500px;
+        }
+    }
+}
+
+#admin-outsourcing-container {
+    height: 100%;
+    max-width: 1650px;
+    display: flex;
+    gap: 12px;
+
+    .admin-outsourcing-aside {
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .admin-outsourcing-main {
+        width: 1338px;
+        flex-grow: 1;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+}
+
+#admin-community-container{
+    height: 100%;
+    max-width: 1650px;
+    display: flex;
+    gap: 12px;
+
+    .admin-community-aside {
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .admin-community-main {
+        width: 1338px;
+        flex-grow: 1;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+}
+
+#admin-schedule-container{
+    height: 100%;
+    max-width: 1650px;
+    display: flex;
+    gap: 12px;
+
+    .admin-schedule-aside {
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .admin-schedule-main {
+        width: 1338px;
+        flex-grow: 1;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+}
+
+#admin-vacation-container{
+    height: 100%;
+    max-width: 1650px;
+    display: flex;
+    gap: 12px;
+
+    .admin-vacation-aside {
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .admin-vacation-main {
+        width: 1338px;
+        flex-grow: 1;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+}
+
+#admin-attendance-container {
+    height: 100%;
+    max-width: 1650px;
+    display: flex;
+    gap: 12px;
+
+    .admin-attendance-aside {
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .admin-attendance-main {
+        width: 1338px;
+        flex-grow: 1;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+}
+
+#admin-outside-container {
+    height: 100%;
+    max-width: 1650px;
+    display: flex;
+    gap: 12px;
+
+    .admin-outside-aside {
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .admin-outside-main {
+        width: 1338px;
+        flex-grow: 1;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+}
+
+.admin-aside {
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.team-modal {
+    .modal-custom-width {
+        width: 500px;
+    }
+}
+
+.department-modal {
+    .modal-custom-width {
+        width: 500px;
+    }
+}
+
+.outsourcing-modal {
+    .modal-custom-width {
+        width: 500px;
+    }
+}
+
+.user-modal {
+    .modal-custom-width {
+        width: 500px;
+    }
+}

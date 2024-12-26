@@ -1,0 +1,152 @@
+
+#calendar-container {
+    height: 100%;
+    display: flex;
+    gap: 12px;
+
+    .calendar-aside {
+        width: 300px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .calendar-main {
+        width: 1338px;
+        flex-grow: 1;
+        background-color: white;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
+    .fc-header-toolbar {
+        display: flex;
+        gap: 10px;  /* 원하는 간격 (px 또는 rem으로 설정 가능) */
+        position: sticky;
+        top: 0;
+        background-color: white;
+        z-index: 10;
+        padding-bottom: 20px;
+    }
+
+    .fc-button-group{
+        display: flex;
+        gap: 5px;
+        
+        button {
+            background-color: #7e7edf;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button:nth-child(3) {
+            background-color: white;
+            color: #7e7edf;
+            border: 1px solid #7e7edf;
+            border-radius: 5px;
+
+        }
+
+        button:nth-child(3):hover {
+            background-color: #7e7edf;
+            opacity: 0.6;
+            color: white;
+        }
+        
+        
+    }
+
+    .fc-event {
+        color: white; /* 글자색 */
+        border-radius: 4px; /* 모서리 둥글게 */
+        padding: 5px 10px; /* 내부 여백 */
+        font-weight: bold; /* 글자 두껍게 */
+        font-size: 14px; /* 폰트 크기 */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* 그림자 */
+        opacity: 0.4;
+    }
+    .fc-event-title-container {
+        height: 10px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+    }
+
+    .fc-timegrid-event-harness-inset {
+        width: 40px;
+
+        
+    }
+    .fc-event-time{
+        white-space: normal;
+    }
+    
+    .fc-event-main-frame {
+        display: flex;
+        align-items: center;
+    }
+
+    .bg-blue-200 {
+        background-color: rgba($color: blue, $alpha: 0.2);
+    }
+
+    .bg-purple-200 {
+        background-color: rgba($color: purple, $alpha: 0.2);
+    }
+
+    .bg-green-200 {
+        background-color: rgba($color: green, $alpha: 0.2);
+    }
+
+    .bg-red-200 {
+        background-color: rgba($color: red, $alpha: 0.2);
+    }
+
+    .bg-yellow-200 {
+        background-color: rgba($color: yellow, $alpha: 0.2);
+    }
+
+    .bg-orange-200 {
+        background-color: rgba($color: orange, $alpha: 0.2);
+    }
+
+    .bg-brown-200 {
+        background-color: rgba($color: brown, $alpha: 0.2);
+    }
+
+    .bg-pink-200 {
+        background-color: rgba($color: pink, $alpha: 0.2);
+    }
+
+
+    .text-blue-200 {
+        color: rgba($color: blue, $alpha: 0.5);
+    }
+
+    .text-purple-200 {
+        color: rgba($color: purple, $alpha: 0.5);
+    }
+
+    .text-green-200 {
+        color: rgba($color: green, $alpha: 0.5);
+    }
+
+    .text-red-200 {
+        color: rgba($color: red, $alpha: 0.5);
+    }
+
+    .text-orange-200 {
+        color: rgba($color: orange, $alpha: 0.5);
+    }
+
+    .text-yellow-200 {
+        color: rgba($color: yellow, $alpha: 0.5);
+    }
+
+    .text-brown-200 {
+        color: rgba($color: brown, $alpha: 0.5);
+    }
+
+    .text-pink-200 {
+        color: rgba($color: pink, $alpha: 0.5);
+    }
+}
